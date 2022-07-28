@@ -179,8 +179,53 @@
         All</button>
     </section>
 
+    <!-- register section -->
+    <section class="container my-5 p-5 bg-info text-white rounded ">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text-center text-lg-start">
+            <h2>Ready to join?</h2>
+            <p>Our next batches will start from sep-01-2022. Register now and get updates. </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="text-center text-lg-end">
+            <button type="button" class="btn btn-lg bg-white text-info fw-semibold rounded mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Please fill up the form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- faq section -->
-    <section class="container my-5">
+    <section class="container my-5" id="faq">
       <h1 class="text-center fw-semibold mt-5 ">Information You May <br> Need</h1>
       <p class="text-center">We have found some questions students ask about the courses. please have a look below.</p>
       <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
