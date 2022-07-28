@@ -40,7 +40,7 @@
               <a class="nav-link" href="#faq">FAQ</a>
             </li>
           </ul>
-          <button class="btn btn-sm btn-outline-info border-2 fs-5 px-3" type="button">REGISTER</button>
+          <a class="btn btn-sm btn-outline-info fs-5 px-3" type="button" href="#reg">REGISTER</a>
         </div>
       </div>
     </nav>
@@ -108,8 +108,7 @@
             <img src="./images/course/course-1.png" alt="">
             <div class="p-3">
               <h4>Fundamental Of UI/UX Design</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
+              <p>You will learn about color concept, size of an element and tools like photoshop.</p>
               <h5 class="text-danger">Price : 20$</h5>
             </div>
           </div>
@@ -120,9 +119,8 @@
             <img class="rounded" src="./images/course/course-b.jpg" alt="">
             <div class="p-3">
               <h4>Basic Theme Development with Css3</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
-              <h5 class="text-danger">Price : 20$</h5>
+              <p>You can learn simple landing page, blog portfolio etc design.</p>
+              <h5 class="text-danger">Price : 25$</h5>
             </div>
           </div>
         </div>
@@ -132,9 +130,8 @@
             <img src="./images/course/course-a.png" alt="">
             <div class="p-3">
               <h4>Wordpress advanced theme development</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
-              <h5 class="text-danger">Price : 20$</h5>
+              <p>Theme customization, development, usages of popular plugins.</p>
+              <h5 class="text-danger">Price : 30$</h5>
             </div>
           </div>
         </div>
@@ -144,8 +141,7 @@
             <img src="./images/course/course-6.png" alt="">
             <div class="p-3">
               <h4>Motion Graphics: Newbee to Pro</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
+              <p>Basic to advanced concept of game development, animation and graphics.</p>
               <h5 class="text-danger">Price : 20$</h5>
             </div>
           </div>
@@ -156,8 +152,7 @@
             <img src="./images/course/course-2.png" alt="">
             <div class="p-3">
               <h4>Fullstack web development with react</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
+              <p>Js oroblem solving, backend and database is included to this course.</p>
               <h5 class="text-danger">Price : 20$</h5>
             </div>
           </div>
@@ -168,9 +163,8 @@
             <img src="./images/course/course-3.png" alt="">
             <div class="p-3">
               <h4>Fundamentals of Cyber security</h4>
-              <p>Some quick example text to build on the card title
-                and make up the bulk of the card.</p>
-              <h5 class="text-danger">Price : 20$</h5>
+              <p>You can learn networking, ethical hacking, cyber security laws and so on.</p>
+              <h5 class="text-danger">Price : 30$</h5>
             </div>
           </div>
         </div>
@@ -180,7 +174,7 @@
     </section>
 
     <!-- register section -->
-    <section class="container my-5 p-5 bg-info text-white rounded ">
+    <section class="container my-5 p-5 bg-info text-white rounded" id="reg">
       <div class="row">
         <div class="col-lg-6">
           <div class="text-center text-lg-start">
@@ -224,11 +218,53 @@
       </div>
     </section>
 
+    <!-- students section -->
+    <section class="container my-5" id="students">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="./images/student/student-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Nusrat Jahan</h4>
+              <p class="card-text">Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="./images/student/student-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Jahanur Alam</h4>
+              <p class="card-text">Web Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="./images/student/student-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Maria Sultana</h4>
+              <p class="card-text">UI\UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card">
+            <img src="./images/student/student-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Ashik Ahmed</h4>
+              <p class="card-text">Motion Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- faq section -->
     <section class="container my-5" id="faq">
       <h1 class="text-center fw-semibold mt-5 ">Information You May <br> Need</h1>
       <p class="text-center">We have found some questions students ask about the courses. please have a look below.</p>
-      <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
+      <div class="accordion mt-5 w-75 mx-auto" id="accordionPanelsStayOpenExample">
         <!-- first item -->
         <div class="accordion-item my-3 border border-0">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -339,11 +375,10 @@
       </div>
     </section>
   </main>
-
   <!-- footer -->
   <footer class="container-fluid bg-dark text-white text-center p-5">
     <h2 class="fw-semibold my-4">EduZone</h2>
-    <p>12/E, Satmasjid road, MOhammadpur</p>
+    <p>12/E, Satmasjid road, Mohammadpur</p>
     <p>Dhaka-1207</p>
     <p>Privacy Ploicy | Terms of use</p>
     <a class="text-decoration-none text-white mx-2" href="https://www.facebook.com/">
