@@ -1,12 +1,20 @@
-.custom-bg{
+.custom-bg {
   background-color: azure;
 }
-.rating{
+
+.rating {
   color: orange;
 }
-@media only screen and (min-width: 992px) {
-    .custom-width {
-      width: 80% !important;
-      margin: 0 auto;
-    }
+
+@media only screen and (max-width: 576px) {
+  .custom-height {
+    height: 220px;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  .custom-width {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}
