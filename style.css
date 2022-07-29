@@ -1,6 +1,9 @@
 .custom-bg{
   background-color: azure;
 }
+.rating{
+  color: orange;
+}
 @media only screen and (min-width: 992px) {
     .custom-width {
       width: 80% !important;
